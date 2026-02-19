@@ -2,7 +2,7 @@
 
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das cartas
-// Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
+// Objetivo: No nível Aventureiro você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
 
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
@@ -15,6 +15,9 @@ int main() {
   float pib1;
   int pontos1;
 
+  float densidade1;
+  float pibPerCapita1;
+
   /* ===== CARTA 2 ===== */
   char estado2;
   char codigo2[4];
@@ -23,6 +26,9 @@ int main() {
   float area2;
   float pib2;
   int pontos2;
+
+  float densidade2;
+  float pibPerCapita2;
 
   // Área para entrada de dados
   /* ===== ENTRADA DE DADOS - CARTA 1 ===== */
@@ -82,6 +88,9 @@ int main() {
   printf("Area: %.2f km2\n", area1);
   printf("PIB: %.2f\n", pib1);
   printf("Pontos Turisticos: %d\n", pontos1);
+  printf("Densidade Populacional: %.2f hab/km2\n", densidade1);
+  printf("PIB per Capita: %.2f\n", pibPerCapita1);
+
 
   printf("\n===== CARTA 2 =====\n");
   printf("Estado: %c\n", estado2);
@@ -91,6 +100,9 @@ int main() {
   printf("Area: %.2f km2\n", area2);
   printf("PIB: %.2f\n", pib2);
   printf("Pontos Turisticos: %d\n", pontos2);
+  printf("Densidade Populacional: %.2f hab/km2\n", densidade2);
+  printf("PIB per Capita: %.2f\n", pibPerCapita2);
+
 
   return 0;
 } 
